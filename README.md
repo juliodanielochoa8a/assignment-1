@@ -23,36 +23,29 @@ https://www.youtube.com/watch?v=N_AnCnaD44E&feature=youtu.be
 
 Then open a terminal window (or Git Bash window if on Windows). Do:
 
-`cd ~`
+cd ~
 
-`mkdir lessons`
+mkdir lessons
 
-`cd lessons` 
+cd lessons (this is a folder where you will be keeping all of your code you write for the class)
 
-(this is a folder where you will be keeping all of your code you write for the class)
+git clone https://github.com/Code-the-Dream-School/web-basics-1-week-1-YOUR-GIT-USER-NAME.git (you can also just paste the link in here if you clicked on teh green button from your forked github repository)
 
-`git clone https://github.com/Code-the-Dream-School/web-basics-1-week-1-YOUR-GIT-USER-NAME.git` 
-
-(you can also just paste the link in here if you clicked on teh green button from your forked github repository)
-
-`cd web-basics-1-week-1-johnsmith.git` 
-
-(but replace johnsmith with your git user name. You also should be able to hit tab if you begin typing the begininning of your repository name and it will autocomplete the rest.)
+cd web-basics-1-week-1-johnsmith.git (but replace johnsmit with your git user name, you also should be able to hit tab if you begin typing the begininning of your repository name and it will autocomplete the rest
 
 At this point the repository has been downloaded on your computer in your lessons folder. You should now be able to open the repository by navigating to it inside of your favorite code editor and opening it. Or by navigating to it in your explorer/finder and opening your code editor. 
 
- `git checkout -b lesson1`
+git checkout -b lesson1
 
 This will create a git branch for your repository called lesson1. Back on github, you will see displayed the instructions for this lesson, which involves editing an HTML file. Make the HTML changes required using your editor and save the file. Try the changes out by opening the HTML file in your web browser. Then close the file in your editor. Do the following:
 
-`git status`  
-`git add -A`  
-`git status`  
-`git commit -m "Updated html file"`  
-`git status`  
-`git checkout master`  
-`git merge lesson1`  
-`git push`  
-
+git status
+git add -A
+git status
+git commit -m "Updated html file"
+git status
+git checkout master
+git merge lesson1
+git push
 The git push will require that you enter your github ID and password. It will push your revised code back to github. Additional information on git commands is available in a Treehouse class that is part of the first week’s lesson.
 
